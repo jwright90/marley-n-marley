@@ -13,15 +13,18 @@ export default function Home() {
       </Head>
 
       <section className={styles.landingPage}>
-        <div>
+        <div className={styles.landingPageText}>
           <h1>Accouting &amp; Tax Advisors</h1>
           <h2>Specialising in wealth &amp; estate management for high net worth individuals</h2>
+          <button className={styles.landingPageBtn}>Learn More</button>
         </div>
 
         <div className={styles.landingPageImageContainer}>
           <Image
             className={styles.landingPageImage}
             src={mansion}
+            height={800}
+            width={800}
             alt="Picture of mansion"
           />
         </div>
