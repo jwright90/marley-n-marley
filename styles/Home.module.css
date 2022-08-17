@@ -14,10 +14,13 @@
   color: white;
   font-size: 18px;
   padding: 15px 35px;
+  transition: 0.3s ease;
 }
 
 .landingPageBtn:hover {
-  background-color: var(--mid-green);
+  background-color: #34B275;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .landingPageImageContainer {

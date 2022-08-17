@@ -23,8 +23,8 @@ export default function Home() {
           <Image
             className={styles.landingPageImage}
             src={mansion}
-            height={800}
-            width={800}
+            height={700}
+            width={700}
             alt="Picture of mansion"
           />
         </div>
